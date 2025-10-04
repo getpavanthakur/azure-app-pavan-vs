@@ -5,6 +5,13 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_pavan_vs</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/b4994ccc-d2c5-49e1-ade8-4fb70aa499c0/resourceGroups/az-group-rg2/providers/microsoft.insights/components/azure-app-pavan-vs</ApplicationInsightsResourceId>
+    <UserSecretsId>dd6a2f80-d0db-41b5-856d-00eec21530a1</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.13.2" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.23.0" />
+  </ItemGroup>
 
 </Project>
