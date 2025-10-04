@@ -15,7 +15,7 @@ namespace azure_app_pavan_vs.Pages
         public void OnGet()
         {
 
-            throw new Exception("Testing Insights Pavan");
+            //throw new Exception("Testing Insights Pavan");
         }
     }
 
